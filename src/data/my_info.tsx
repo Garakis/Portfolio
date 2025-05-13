@@ -72,13 +72,13 @@ export const myInfo = {
   experience: {
     work: [
       {
-        title: "Lorem ipsum dolor sit amet",
-        company: "Lorem ipsum dolor sit amet",
-        location: "Lorem ipsum dolor sit amet",
-        dateRange: "Lorem ipsum dolor sit amet",
+        title: "Intern",
+        company: "Tera Science",
+        location: "São José dos Campos, Brazil",
+        dateRange: "aug 2024, present",
         description:
           "Lorem ipsum dolor sit amet. Ea iusto dicta eos sunt officia rem dolores excepturi et voluptatem porro est cumque tempora.",
-        skills: ["C#", ".NET", "SQL", "Docker", "Azure Devops"],
+        skills: ["Java", "SQL", "N8N", "Clickup", "Make"],
       },
       {
         title: "Lorem ipsum dolor sit amet",
@@ -87,7 +87,7 @@ export const myInfo = {
         dateRange: "Lorem ipsum dolor sit amet",
         description:
           "Lorem ipsum dolor sit amet. Ea iusto dicta eos sunt officia rem dolores excepturi et voluptatem porro est cumque tempora.",
-        skills: ["C#", ".NET", "SQL", "Docker", "Azure Devops"],
+        skills: ["Lorem", "Ipsum", "Dolor", "Sit", "Amet"],
       },
     ],
     freelance: [
@@ -121,16 +121,11 @@ export const myInfo = {
         "Participated in a hackathon",
       ],
       courses: [
-        // "Data Structures",
-        // "Algorithms",
-        // "Object-Oriented Programming",
-        // "Database Systems",
-        // "Software Development",
-        // "Software Engineering Principles",
-        // "Artificial Intelligence",
-        // "Software Testing",
-        // "Sistems Integration",
-        // "QA",
+        "Software Engineering",
+        "Data Structures",
+        "Algorithms",
+        "Object-Oriented Programming",
+        "Database Systems",
       ],
     },
   ],

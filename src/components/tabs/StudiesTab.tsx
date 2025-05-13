@@ -123,8 +123,15 @@ export function StudiesTab() {
       </div>
 
       <div className="space-y-8">
-        {myInfo.certifications.map((edu, index) => (
-          <CertificationItem key={index} {...edu} />
+        {myInfo.certifications.map((certification, index) => (
+          <CertificationItem
+            key={index}
+            title={certification.title}
+            date={certification.date}
+            description={certification.description}
+            credentialId={certification.credentialId}
+            url={certification.url}
+          />
         ))}
       </div>
 
