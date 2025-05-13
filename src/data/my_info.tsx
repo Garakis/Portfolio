@@ -139,25 +139,25 @@ export const myInfo = {
       title: "Developer Portfolio",
       description: "My personal developer portfolio",
       technologies: ["React", "Tailwind CSS", "Typescript", "Framer Motion"],
-      liveLink: "https://damian-briones-portfolio.vercel.app",
-      githubLink: "https://github.com/CodeINN95612/damian-briones-portfolio",
+      liveLink: "https://emmanuel-garakis-portfolio.vercel.app",
+      githubLink: "https://github.com/CodeINN95612/emmanuel-garakis-portfolio",
       image: "/projects/portfolio.png",
     },
   ],
   certifications: [
     {
-      // title: "Microsoft Certified: Azure Fundamentals",
-      // date: "2024",
-      // description:
-      //   "Demonstrates foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
-      // credentialId: "E795636135DDD8FD",
-      // url: "https://learn.microsoft.com/api/credentials/share/en-us/DamianBriones-9572/E795636135DDD8FD?sharingId=5BCEED54F209B1C6",
+      title: "Microsoft Certified: Azure Fundamentals",
+      date: "2024",
+      description:
+        "Demonstrates foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      credentialId: "E795636135DDD8FD",
+      url: "https://learn.microsoft.com/api/credentials/share/en-us/Emmanuel-garakis-9572/E795636135DDD8FD?sharingId=5BCEED54F209B1C6",
     },
     {
-      // title: "ScrumStudy Scrum Fundamentals Certified",
-      // date: "2024",
-      // description:
-      //   "Certification demonstrating knowledge of Scrum fundamentals.",
+      title: "ScrumStudy Scrum Fundamentals Certified",
+      date: "2024",
+      description:
+        "Certification demonstrating knowledge of Scrum fundamentals.",
     },
   ],
 };
