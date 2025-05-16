@@ -134,22 +134,22 @@ export const myInfo = {
       title: "Developer Portfolio",
       description: "My personal developer portfolio",
       technologies: ["React", "Tailwind CSS", "Typescript", "Framer Motion"],
-      liveLink: "https://emmanuel-garakis-portfolio.vercel.app",
-      githubLink: "https://github.com/CodeINN95612/emmanuel-garakis-portfolio",
-      image: "/projects/portfolio.png",
+      liveLink: "portfolio-ashy-three-87.vercel.app",
+      githubLink: "github.com/Garakis/portfolio",
+      image: "/portfolio.png",
     },
   ],
   certifications: [
     {
-      title: "Microsoft Certified: Azure Fundamentals",
-      date: "2024",
+      title: "teste",
+      date: "teste",
       description:
-        "Demonstrates foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
+        "teste.",
       credentialId: "E795636135DDD8FD",
-      url: "https://learn.microsoft.com/api/credentials/share/en-us/Emmanuel-garakis-9572/E795636135DDD8FD?sharingId=5BCEED54F209B1C6",
+      url: "url",
     },
     {
-      title: "ScrumStudy Scrum Fundamentals Certified",
+      title: "teste",
       date: "2024",
       description:
         "Certification demonstrating knowledge of Scrum fundamentals.",
