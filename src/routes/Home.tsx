@@ -18,7 +18,7 @@ export function Home() {
       <div className="text-xs">
         <p>
           Made by <span className="italic text-teal-200">Emmanuel Garakis</span>{" "}
-          2024
+          2025
         </p>
       </div>
       <div className="absolute inset-0 z-0 grid grid-cols-6 gap-0 opacity-10 md:grid-cols-12">

@@ -1,6 +1,4 @@
-import { AiOutlineDotNet } from "react-icons/ai";
-import { FaDocker, FaNodeJs } from "react-icons/fa";
-import { FaReact } from "react-icons/fa6";
+import {FaNodeJs, FaPython, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiAzuredevops } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 
@@ -11,19 +9,19 @@ export const myInfo = {
   image: "/personal.jpeg",
   skills: [
     {
-      name: ".Net",
-      children: <AiOutlineDotNet className="size-10" />,
-      className: "bg-violet-500",
+      name: "Python",
+      children: <FaPython className="size-10" />,
+      className:"bg-blue-600",
     },
     {
-      name: "React",
-      children: <FaReact className="size-10" />,
-      className: "bg-sky-500",
+      name: "Html",
+      children: <FaHtml5 className="size-10" />,
+      className: "bg-orange-600",
     },
     {
-      name: "Docker",
-      children: <FaDocker className="size-10" />,
-      className: "bg-blue-700",
+      name: "Css",
+      children: <FaCss3Alt className="size-10" />,
+      className: "bg-blue-600",
     },
     {
       name: "NodeJS",
@@ -46,10 +44,10 @@ export const myInfo = {
     about:
       "Born and raised in São José dos Campos, Brazil, I'm a tech enthusiast with a deep love for software and continuous learning.",
     whatMakesMeTick:
-      "I believe in my abilities to create impactful software solutions that can make a difference in people's lives. My journey in tech started when I built my first game at 12 and became fascinated with how software could bring any idea to life.",
+      "I believe in my abilities to create impactful software solutions that can make a difference in people's lives. My journey in tech started when I entered my school's robotic team at 11 years of age and became fascinated with how software could bring any idea to life.",
     music:
       "Avid musician and Multi Instrumentist.",
-    book: 'From sci-fi to philosophy, my bookshelf is as diverse as my code libraries. One of my favorite books is "Pet Sematary" by Stephen King.',
+    book: 'From religion to comic books, my bookshelf is as diverse as my code libraries. One of my favorite books is "Lord of The Rings" by JRR Tolkien.',
     game: {
       text: "Enjoy immersing myself in virtual worlds and sometimes some friendly competition. Current favorite:",
       favorite: "Minecraft",
@@ -78,7 +76,7 @@ export const myInfo = {
         dateRange: "aug 2024, present",
         description:
           "Lorem ipsum dolor sit amet. Ea iusto dicta eos sunt officia rem dolores excepturi et voluptatem porro est cumque tempora.",
-        skills: ["Java", "SQL", "N8N", "Clickup", "Make"],
+        skills: ["Java", "SQL", "N8N", "Clickup", "PHP"],
       },
       {
         title: "Lorem ipsum dolor sit amet",
@@ -136,7 +134,7 @@ export const myInfo = {
       technologies: ["React", "Tailwind CSS", "Typescript", "Framer Motion"],
       liveLink: "portfolio-ashy-three-87.vercel.app",
       githubLink: "github.com/Garakis/portfolio",
-      image: "/portfolio.png",
+      image: "../projects/portfolio.png",
     },
   ],
   certifications: [

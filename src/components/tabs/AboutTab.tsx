@@ -1,5 +1,7 @@
-import { Heart, Music, Book, Gamepad2, Globe, Camera } from "lucide-react";
+import { Heart, Music, Gamepad2, Globe, Camera } from "lucide-react";
 import { myInfo } from "../../data/my_info";
+import { BiBible } from "react-icons/bi";
+import { FaGuitar } from "react-icons/fa";
 
 export function AboutTab() {
   return (
@@ -36,16 +38,16 @@ export function AboutTab() {
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex items-start gap-3">
-            <Music className="w-6 h-6 text-zinc-400 shrink-0" />
+            <FaGuitar className="w-6 h-6 text-zinc-400 shrink-0" />
             <div>
               <h4 className="text-lg font-medium text-zinc-200">Music Lover</h4>
               <p className="text-zinc-400">{myInfo.about_me.music}</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <Book className="w-6 h-6 text-zinc-400 shrink-0" />
+            <BiBible className="w-6 h-6 text-zinc-400 shrink-0" />
             <div>
-              <h4 className="text-lg font-medium text-zinc-200">Avid Reader</h4>
+              <h4 className="text-lg font-medium text-zinc-200">Aspiring theologian</h4>
               <p className="text-zinc-400">{myInfo.about_me.book}</p>
             </div>
           </div>
